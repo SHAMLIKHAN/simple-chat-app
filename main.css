@@ -1,0 +1,7 @@
+.input-box {
+    margin-bottom: 20px;
+}
+.chat-view {
+    height: 300px;
+    overflow: auto;
+}
