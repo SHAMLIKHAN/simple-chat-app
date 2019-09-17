@@ -2,5 +2,5 @@
 A simple real time chat application using Nodejs
 
 # Run
-`npm i`
-`node server.js`
+`npm i`<br>
+`npm start`
