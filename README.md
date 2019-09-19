@@ -2,5 +2,4 @@
 A simple real time chat application using Nodejs
 
 # Run
-`npm i`
-`node server.js`
+`docker-compose up --build`

@@ -14,7 +14,7 @@ var EndToEndChat = mongoose.model('EndToEndChat', {
     message : String
 });
 
-var url = 'mongodb://localhost:27017/chat-app';
+var url = 'mongodb://mongo:27017/chat-app';
 
 app.get('/messages', (req, res) => {
     EndToEndChat.find({}, (err, messages) => {
